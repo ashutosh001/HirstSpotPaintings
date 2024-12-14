@@ -6,8 +6,8 @@ Draw spot painting similar to Hirst Paintings using Python, Turtle graphics and 
 
 # Screenshots
 
-![Preview1](images/Preview1.png)
+![Preview1](images/Previewa.png)
 
-![Preview2](images/Preview2.png)
+![Preview2](images/Previewb.png)
 
-![Preview3](images/Preview3.png)
+![Preview3](images/Previewc.png)
