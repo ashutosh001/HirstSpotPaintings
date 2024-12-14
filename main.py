@@ -40,14 +40,16 @@ class Painting():
         my_turtle = Turtle()
         my_screen = Screen()
         my_screen.colormode(255)
+        my_turtle.hideturtle() #hides the turtle
+        my_turtle.speed("fastest")
 
         self.starting_point(my_turtle)
         for x in range(self.column):
             for y in range(self.row):
                 pick_color = random.choice(self.color_list)
 
-                my_turtle.color(pick_color)
-                my_turtle.dot(self.diameter)
+                #my_turtle.color(pick_color) only the dots are colored and not the turtle
+                my_turtle.dot(self.diameter,pick_color)
                 my_turtle.up()
                 my_turtle.forward(self.gap)
                 print(int(my_turtle.xcor()),int(my_turtle.ycor()))
